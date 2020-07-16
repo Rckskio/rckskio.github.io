@@ -3,7 +3,7 @@ window.addEventListener('load', start);
 
 // Declaring global variables, global variables are the variables that all functions can read and work on it
 // So in this case, all the functions below can access these variables
-var globalNames = ['One', 'Two', 'Three', 'Four', 'Five'];
+var globalNames = [];
 var inputName = null;
 var isEditing = false;
 var currentIndex = null;
