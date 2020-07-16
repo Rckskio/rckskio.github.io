@@ -1,0 +1,21 @@
+ul,
+li {
+  list-style-type: none;
+}
+
+body {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.deleteButton {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  margin-right: 10px;
+  border-radius: 50%;
+}
