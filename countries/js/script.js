@@ -116,7 +116,7 @@ function renderFavorites() {
     const favoriteHTML = `
       <div class="country">
         <div>
-          <a id="${id}" class="waves-effect waves-light btn red darken-4" ${title} ${alt}>+</a>
+          <a id="${id}" class="waves-effect waves-light btn red darken-4" ${title} ${alt}>-</a>
         </div>
         <div>
           <img src="${flag}" alt="Flag of country ${name}" title="Flag of ${name}">
