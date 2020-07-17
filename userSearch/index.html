@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>User search</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">User Search</h1>
+
+      <div id="divSpinner" class="flex-row flex-center">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span style="margin-left: 10px; font-size: 1.5rem;"
+          >Please Wait a moment...</span
+        >
+      </div>
+
+      <div id="divInteraction" class="hidden">
+        <div class="flex-row">
+          <div class="input-field input">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="inputSearch" type="text" class="validate" />
+            <label for="inputSearch">Search</label>
+          </div>
+          <button
+            id="buttonSearch"
+            class="btn-floating btn-large waves-effect waves-light"
+          >
+            <i class="material-icons">search</i>
+          </button>
+        </div>
+
+        <div class="flex-row flex-align-top">
+          <div class="panel" id="panelUsers">
+            <h2>We didn't find any reults</h2>
+          </div>
+          <div class="panel" id="panelStatistics"><h2>Statistics</h2></div>
+        </div>
+      </div>
+    </div>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
